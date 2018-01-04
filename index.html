@@ -12,10 +12,20 @@
 
     <div class="card">
         <div class="card-header">
-            <h1 class="card-title">Spin The Wheel</h1>
+            <h1 class="card-title">SPIN THE WHEEL</h1>
+        </div>
+        <div class="tabs">
+            <button class="tabButton" onclick="openTab(event, 'classicTab')">Classic</button>
+            <button class="tabButton" onclick="openTab(event, 'springBreakTab')">Spring Break</button>
         </div>
         <div class="card-content">
-            <img src="assets/wheel.png" id="wheel">
+            <div id="classicTab" class="tabContent" style="display: block">
+                <img src="assets/classicWheel.png" id="wheel">
+            </div>
+            <div id="springBreakTab" class="tabContent">
+                <img src="assets/springBreakWheel.png" id="wheel">
+            </div>
+            
         </div>
     </div>
 
